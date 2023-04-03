@@ -1,0 +1,238 @@
+/* Pagina INDEX */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+
+.boton-inicio{
+    border-color: black;
+}
+.boton-registrarse{
+    border-color: black;
+}
+.boton-inicio:hover{
+    border-color:blue;
+}
+.boton-registrarse:hover{
+    border-color: blue;
+}
+
+.class-footer{
+    background-color: rgb(29, 29, 29 );
+}
+
+.navbar-class{
+    background-color: rgb(29, 29, 29 );
+}
+
+/* MAIN */
+.class-main-imagen-fondo-pagina-principal{
+    background-image: url(https://th.bing.com/th/id/OIP.FIhN_xN_zfgm6axR3KXE4QHaE7?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.class-carousel-pagina-principal img{
+    height: 65vh;
+}
+
+
+.card-primera-columna-inicio1{
+    margin-left: 15%;
+}
+.card-primera-columna-inicio2{
+    margin-left: 15%;
+}
+.card-primera-columna-inicio3{
+    margin-left: 15%;
+}
+.card-primera-columna-inicio4{
+    margin-left: 15%;
+}
+
+   
+/* segunda columna */
+
+
+.class-categorias a{
+    color: black;
+   text-decoration: none;
+   font-size: larger;
+   
+}
+.class-categorias{
+    background-color: #232223;
+    color: white;
+}
+.class-categorias a{
+    color: white;
+}
+.class-h2-paginap-rincipal{
+    margin-top: 31%;
+    background-color: #232223;
+    color: white;
+    font-size: large;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA CONTACTO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body */
+.class-body-imagen-fondo-pagina-contacto{
+    background-image: url(https://infoempleonews.com/wp-content/uploads/2020/12/3.303-ofertas-de-trabajo-de-ATENCION-AL-CLIENTE-encontradas.png);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+/* main */
+
+.class-formulario-contacto{
+    margin-left: 5%;
+    width: 300px;
+    background-color: #535251;
+    
+}
+
+.sucursales-contacto button{
+    background-color: #232223;
+    color: white;
+}
+    
+.dropdown-menu{
+    background-color: #615f61;
+    color: white;
+}
+
+.sucursales-contacto{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+    
+
+
+
+
+
+
+
+
+
+/* PAGINA GALERIA DE FOTOS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.class-h2-galeria-imagenes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #535251;
+    padding: 2% 0%;
+    
+}
+.class-body-fondo-pantalla-galeria{
+    background-color: #202744;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA VISTA DE USUARIO */
+
+.class-main-imagen-fondo-pagina-vista-usuario{
+    background-image: url(https://th.bing.com/th/id/OIP.HtgWWPKCc-DMOrodC9zjnwHaEV?pid=ImgDet&w=1280&h=750&rs=1);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA ADMINISTRADOR */
+ 
+.navbar-vista-admin{
+    background-color: #232223;
+}
+
+.img-estadisticas{
+    width:80%;
+    height:50%;
+    margin-left: 10%;
+
+}
+
+.background-administrador{
+    background-color: #202744;
+    
+}
+
+.card-admin-estadistica{
+    text-decoration: none;
+}
+
+
+

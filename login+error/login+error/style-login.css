@@ -1,0 +1,135 @@
+/*navbar y footer*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.boton-inicio {
+    border-color: black;
+}
+
+.boton-registrarse {
+    border-color: black;
+}
+
+.boton-inicio:hover {
+    border-color: blue;
+}
+
+.boton-registrarse:hover {
+    border-color: blue;
+}
+
+.class-footer {
+    background-color: rgb(29, 29, 29);
+}
+
+.navbar-class {
+    background-color: rgb(29, 29, 29);
+}
+
+/*form*/
+.divpadre {
+
+    background-image: url(https://th.bing.com/th/id/OIP.FIhN_xN_zfgm6axR3KXE4QHaE7?pid=ImgDet&rs=1);
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    max-width: fit-content;
+    min-width: auto;
+}
+
+
+
+
+
+
+/*card prepara las valijas*/ 
+.hijo1 {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    border: 0px;
+}
+
+
+.card{
+    background-color: rgba(0, 255, 255, 0.534);
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.continue {
+    height: 48px;
+    font-size: 13px;
+    border: none;
+}
+
+.line {
+    background-color: #eeeff6;
+    width: 166px;
+    height: 2px
+}
+
+/*olvidaste contraseña*/ 
+.member span {
+    font-size: 18px;
+    font-weight: 400;
+    color: #03036db6;
+}
+
+
+.btn{
+background-color: rgba(4, 36, 56, 0.733);
+}
+
+.facebook-button {
+    background-color: #070ac2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.google-button {
+    background-color: rgb(151, 23, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*modal*/ 
+
+#mostrar-modal {
+    display: none;
+}
+
+#mostrar-modal+label {
+    background: steelblue;
+    display: table;
+    margin: auto;
+    color: #fff;
+    line-height: 3;
+    padding: 0 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#mostrar-modal+label:hover {
+    background: #38678f;
+}
+
+
+
+#mostrar-modal:checked~#modal {
+    top: 0;
+}
